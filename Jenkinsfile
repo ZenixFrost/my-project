@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             agent { label 'slave-node' }
             steps {
-                sh "npm install"
+                sh "yarn install"
             }
         }
     }

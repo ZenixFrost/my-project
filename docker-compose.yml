@@ -1,0 +1,7 @@
+version: '3.7'
+services: 
+  webapp:
+    image: nginx-angular:latest
+    ports: 
+      - "81:80"
+   
